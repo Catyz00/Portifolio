@@ -1,0 +1,98 @@
+/* Estilos gerais do Body */
+.body-container {
+    padding: 20px;
+    color: white;
+    background-color: #2F2F2F;
+}
+
+/* Centralizar e aumentar a seção "eu" */
+.eu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Ocupa toda a altura da tela */
+    text-align: center;
+}
+/* Estilo do nome destacado */
+.name {
+    color: #FFB6A6; /* Coral suave */
+    display: inline-block;
+    font-size: 50px;
+}
+
+
+.eu h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.eu p {
+    font-size: 24px;
+    color: #FFB6A6; /* Coral suave */
+}
+
+/* Estilos para a seção Sobre Mim */
+.sobre {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #2F2F2F;
+}
+
+/* Estilos para o carrossel */
+.projetos {
+    background-color: #2F2F2F;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.projetos h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilizando o carrossel */
+.slick-slider {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.slick-slide img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Estilos para habilidades */
+.habilidades {
+    text-align: center;
+    padding: 20px;
+}
+
+.habilidades ul {
+    list-style: none;
+    padding: 0;
+}
+
+.habilidades li {
+    display: inline-block;
+    background-color: #FFB6A6;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 10px;
+    color: #2F2F2F;
+    font-weight: bold;
+}
+
+/* Modo Claro */
+body:not(.dark) .body-container {
+    background-color: #F4F4F9;
+    color: #2F2F2F;
+}
+
+body:not(.dark) .projetos {
+    background-color: #E6E6FA;
+}
