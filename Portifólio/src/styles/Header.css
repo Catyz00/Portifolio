@@ -66,7 +66,7 @@ button {
     border: none;
     border-radius: 50px;
     background-color: #FFB6A6; /* Cor padrão do botão no modo escuro */
-    color: #2F2F2F;
+    color: white;
     transition: background-color 0.3s ease;
     margin-top: 30px;
 }
@@ -74,6 +74,7 @@ button {
 /* Efeito de hover no botão */
 button:hover {
     background-color:  #FFB6A6; /* Coral suave no hover */
+    color: #2F2F2F;
 }
 
 /* Modo Claro */
@@ -94,22 +95,22 @@ body:not(.dark) button, body:not(.dark) a {
 
 /* Efeito de hover */
 body:not(.dark) button:hover, body:not(.dark) a:hover {
-    background-color: #FFB6A6; /* Pêssego suave no hover */
-    color: #2F2F2F;
+    background-color: #b97363; /* Pêssego suave no hover */
+    color: white;
 }
 
 /* Estilos para ícones ou elementos secundários */
 body:not(.dark) .secondary-element {
-    color: #2F2F2F; /* Cinza suave para elementos secundários */
+    color: white; /* Cinza suave para elementos secundários */
 }
 
 /* Botões de ação */
 body:not(.dark) .action-button {
-    background-color: #FFB6A6; /* Lilás claro */
+    background-color: #b97363; /* Lilás claro */
 }
 
 body:not(.dark) .action-button:hover {
-    background-color: #FFB6A6; /* Lilás escuro ou pêssego para hover */
+    background-color: #b97363; /* Lilás escuro ou pêssego para hover */
 }
 
 /* Modo Escuro */
@@ -124,7 +125,7 @@ body.dark header {
 }
 
 body.dark button {
-    background-color: #FFB6A6; /* Coral suave no modo escuro */
+    background-color: #b97363; /* Coral suave no modo escuro */
 }
 
 body.dark h1, body.dark p {

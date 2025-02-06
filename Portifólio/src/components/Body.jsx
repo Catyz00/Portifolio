@@ -24,7 +24,7 @@ const Body = () => {
     return (
         <div>
             <div className='eu'>
-                <h1>Olá, eu sou a <div className='name'>Catarina Dalsan :)</div></h1>
+                <h1>Olá, eu me chamo <div className='name'>Catarina Dalsan :)</div></h1>
                 <p>Desenvolvedora Front-end</p>
             </div>
 

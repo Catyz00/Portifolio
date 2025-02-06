@@ -29,13 +29,33 @@
 }
 
 .eu p {
-    font-size: 24px;
+    font-size: 30px;
     color: #FFB6A6; /* Coral suave */
+}
+
+.eu:after{
+    content: url('../img/seta-para-baixo.png');
+    position: absolute;
+    height: 200px;
+    bottom: 40px;
+    color: #FFB6A6;
+    animation: downarrow 0.6s infinite alternate ease-in-out;
+}
+
+@-webkit-keyframes downarrow {
+    0% {
+        bottom: 40px;
+        opacity: 0.7;
+    }
+    100% {
+        bottom: 50px;
+        opacity: 1;
+    }
 }
 
 /* Estilos para a seção Sobre Mim */
 .sobre {
-    padding: 20px;
+    padding-top: 20px;
     border-radius: 10px;
     text-align: center;
     color: #2F2F2F;
@@ -90,6 +110,17 @@
 /* Modo Claro */
 body:not(.dark) .body-container {
     background-color: #F4F4F9;
+    color: #2F2F2F;
+}
+
+body:not(.dark) .name{
+    color: #b97363; /* Coral suave */
+    display: inline-block;
+    font-size: 50px;
+}
+
+body:not(.dark) .eu p{
+    font-size: 30px;
     color: #2F2F2F;
 }
 
