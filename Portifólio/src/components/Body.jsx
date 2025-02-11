@@ -30,8 +30,10 @@ const Body = () => {
 
             <div className='sobre'>
                 <h2>Sobre mim</h2>
+                <div className='sobre-conteudo'>
                 <img src="" alt="" />
                 <p>Desenvolvedora Front-end com experiência em React.js, Next.js, JavaScript, Material UI e consumo de APIs com Axios. Apaixonada pelo desenvolvimento de componentes reutilizáveis. Formada em Análise e desenvolvimento de sistemas na FAM. Atualmente estou estagiando na área.</p>
+                </div>
             </div>
 
             <div className='projetos'>

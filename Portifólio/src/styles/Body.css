@@ -107,6 +107,65 @@
     font-weight: bold;
 }
 
+/* Estilos para a seção Sobre Mim */
+.sobre {
+    display: flex;
+    flex-direction: column; /* Garante que o título fique no topo */
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    border-radius: 10px;
+    color: #2F2F2F;
+    text-align: center;
+}
+
+/* Ajuste do título */
+.sobre h2 {
+    font-size: 26px; /* Um pouco menor que "Desenvolvedora Front-end" */
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #FFB6A6;
+}
+
+/* Container para imagem e texto */
+.sobre-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Mantém a imagem à esquerda e empurra o texto */
+    gap: 20px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+/* Ajuste da imagem */
+.sobre img {
+    width: 220px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Ajuste do texto */
+.sobre p {
+    max-width: 600px;
+    font-size: 20px; /* Texto um pouco menor */
+    text-align: justify;
+    margin-left: auto; /* Empurra o texto para a direita */
+    padding: 20px;
+}
+
+/* Modo escuro */
+.dark .sobre {
+    color: white;
+}
+
+/* Modo claro */
+body:not(.dark) .sobre {
+    color: #2F2F2F;
+}
+
+
 /* Modo Claro */
 body:not(.dark) .body-container {
     background-color: #F4F4F9;
